@@ -3,14 +3,14 @@ package test
 import (
 	"encoding/json"
 	"github.com/stretchr/testify/assert"
-	"golang-clean-architecture/internal/entity"
-	"golang-clean-architecture/internal/model"
 	"golang.org/x/crypto/bcrypt"
 	"io"
 	"net/http"
 	"net/http/httptest"
 	"strings"
 	"testing"
+	"u-dummy/internal/entity"
+	"u-dummy/internal/model"
 )
 
 func TestRegister(t *testing.T) {

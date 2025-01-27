@@ -4,12 +4,12 @@ import (
 	"context"
 	"github.com/sirupsen/logrus"
 	"github.com/spf13/viper"
-	"golang-clean-architecture/internal/config"
-	"golang-clean-architecture/internal/delivery/messaging"
 	"os"
 	"os/signal"
 	"syscall"
 	"time"
+	"u-dummy/internal/config"
+	"u-dummy/internal/delivery/messaging"
 )
 
 func main() {

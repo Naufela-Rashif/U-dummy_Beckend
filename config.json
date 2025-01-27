@@ -1,6 +1,6 @@
 {
   "app": {
-    "name": "golang-clean-architecture"
+    "name": "U-dummy"
   },
   "web": {
     "prefork": false,
@@ -10,11 +10,11 @@
     "level": 6
   },
   "database": {
-    "username": "root",
-    "password": "",
+    "username": "udummy",
+    "password": "kujwhehfuw32433",
     "host": "localhost",
-    "port": 3306,
-    "name": "golang_clean_architecture",
+    "port": 5432,
+    "name": "db_udummy",
     "pool": {
       "idle": 10,
       "max": 100,
@@ -26,7 +26,7 @@
       "servers": "localhost:9092"
     },
     "group": {
-      "id": "golang-clean-architecture"
+      "id": "u-dummy"
     },
     "auto": {
       "offset": {

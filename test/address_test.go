@@ -3,12 +3,12 @@ package test
 import (
 	"encoding/json"
 	"github.com/stretchr/testify/assert"
-	"golang-clean-architecture/internal/model"
 	"io"
 	"net/http"
 	"net/http/httptest"
 	"strings"
 	"testing"
+	"u-dummy/internal/model"
 )
 
 func TestCreateAddress(t *testing.T) {

@@ -4,13 +4,13 @@ import (
 	"encoding/json"
 	"github.com/google/uuid"
 	"github.com/stretchr/testify/assert"
-	"golang-clean-architecture/internal/entity"
-	"golang-clean-architecture/internal/model"
 	"io"
 	"net/http"
 	"net/http/httptest"
 	"strings"
 	"testing"
+	"u-dummy/internal/entity"
+	"u-dummy/internal/model"
 )
 
 func TestCreateContact(t *testing.T) {

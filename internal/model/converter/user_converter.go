@@ -1,8 +1,8 @@
 package converter
 
 import (
-	"golang-clean-architecture/internal/entity"
-	"golang-clean-architecture/internal/model"
+	"u-dummy/internal/entity"
+	"u-dummy/internal/model"
 )
 
 func UserToResponse(user *entity.User) *model.UserResponse {

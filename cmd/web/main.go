@@ -2,7 +2,7 @@ package main
 
 import (
 	"fmt"
-	"golang-clean-architecture/internal/config"
+	"u-dummy/internal/config"
 )
 
 func main() {

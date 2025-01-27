@@ -2,9 +2,9 @@ package repository
 
 import (
 	"github.com/sirupsen/logrus"
-	"golang-clean-architecture/internal/entity"
-	"golang-clean-architecture/internal/model"
 	"gorm.io/gorm"
+	"u-dummy/internal/entity"
+	"u-dummy/internal/model"
 )
 
 type ContactRepository struct {

@@ -6,13 +6,13 @@ import (
 	"github.com/gofiber/fiber/v2"
 	"github.com/sirupsen/logrus"
 	"github.com/spf13/viper"
-	"golang-clean-architecture/internal/delivery/http"
-	"golang-clean-architecture/internal/delivery/http/middleware"
-	"golang-clean-architecture/internal/delivery/http/route"
-	"golang-clean-architecture/internal/gateway/messaging"
-	"golang-clean-architecture/internal/repository"
-	"golang-clean-architecture/internal/usecase"
 	"gorm.io/gorm"
+	"u-dummy/internal/delivery/http"
+	"u-dummy/internal/delivery/http/middleware"
+	"u-dummy/internal/delivery/http/route"
+	"u-dummy/internal/gateway/messaging"
+	"u-dummy/internal/repository"
+	"u-dummy/internal/usecase"
 )
 
 type BootstrapConfig struct {

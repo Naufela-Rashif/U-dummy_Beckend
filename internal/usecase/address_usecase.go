@@ -6,12 +6,12 @@ import (
 	"github.com/gofiber/fiber/v2"
 	"github.com/google/uuid"
 	"github.com/sirupsen/logrus"
-	"golang-clean-architecture/internal/entity"
-	"golang-clean-architecture/internal/gateway/messaging"
-	"golang-clean-architecture/internal/model"
-	"golang-clean-architecture/internal/model/converter"
-	"golang-clean-architecture/internal/repository"
 	"gorm.io/gorm"
+	"u-dummy/internal/entity"
+	"u-dummy/internal/gateway/messaging"
+	"u-dummy/internal/model"
+	"u-dummy/internal/model/converter"
+	"u-dummy/internal/repository"
 )
 
 type AddressUseCase struct {

@@ -3,10 +3,10 @@ package http
 import (
 	"github.com/gofiber/fiber/v2"
 	"github.com/sirupsen/logrus"
-	"golang-clean-architecture/internal/delivery/http/middleware"
-	"golang-clean-architecture/internal/model"
-	"golang-clean-architecture/internal/usecase"
 	"math"
+	"u-dummy/internal/delivery/http/middleware"
+	"u-dummy/internal/model"
+	"u-dummy/internal/usecase"
 )
 
 type ContactController struct {

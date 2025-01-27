@@ -5,8 +5,8 @@ import (
 	"github.com/gofiber/fiber/v2"
 	"github.com/sirupsen/logrus"
 	"github.com/spf13/viper"
-	"golang-clean-architecture/internal/config"
 	"gorm.io/gorm"
+	"u-dummy/internal/config"
 )
 
 var app *fiber.App

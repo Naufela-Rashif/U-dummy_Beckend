@@ -2,8 +2,8 @@ package middleware
 
 import (
 	"github.com/gofiber/fiber/v2"
-	"golang-clean-architecture/internal/model"
-	"golang-clean-architecture/internal/usecase"
+	"u-dummy/internal/model"
+	"u-dummy/internal/usecase"
 )
 
 func NewAuth(userUserCase *usecase.UserUseCase) fiber.Handler {
